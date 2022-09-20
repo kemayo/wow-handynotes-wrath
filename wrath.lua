@@ -1,22 +1,5 @@
 local myname, ns = ...
 
--- ns.points = {}
-
--- local merge = function(t1, t2)
---     if not t2 then return t1 end
---     for k, v in pairs(t2) do
---         t1[k] = v
---     end
---     return t1
--- end
--- ns.RegisterPoints = function(uiMapID, points, default)
---     if not ns.points[uiMapID] then ns.points[uiMapID] = {} end
---     for coord, point in pairs(points) do
---         merge(point, default)
---         ns.points[uiMapID][coord] = point
---     end
--- end
-
 -- Borean Tundra
 ns.RegisterPoints(114, {
     [21002840] = {},
