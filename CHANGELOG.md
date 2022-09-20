@@ -1,5 +1,9 @@
 # Changelog
 
+## Changed in v2
+
+* Changed the folder name to avoid confusion with Wago's upload processing
+
 ## Changed in v1
 
 * Initial release
