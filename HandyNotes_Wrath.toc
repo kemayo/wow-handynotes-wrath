@@ -8,6 +8,7 @@
 ## X-Category: Map
 ## X-eMail: kemayo @ gmail DOT com
 ## X-Curse-Project-ID: 678106
+## X-Wago-ID: xZKxlvKk
 ## SavedVariables: HandyNotes_WrathDB
 ## RequiredDeps: HandyNotes
 
