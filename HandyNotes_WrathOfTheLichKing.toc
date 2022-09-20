@@ -9,7 +9,7 @@
 ## X-eMail: kemayo @ gmail DOT com
 ## X-Curse-Project-ID: 678106
 ## X-Wago-ID: xZKxlvKk
-## SavedVariables: HandyNotes_WrathDB
+## SavedVariables: HandyNotes_WrathOfTheLichKingDB
 ## RequiredDeps: HandyNotes
 
 handler\handler.xml
