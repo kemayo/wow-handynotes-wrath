@@ -1,5 +1,11 @@
 # Changelog
 
+## Changed in v3
+
+* Added Higher Learning books in Dalaran
+* Added some missing loot to rares
+* Showed pathing routes on some rares (more to come)
+
 ## Changed in v2
 
 * Changed the folder name to avoid confusion with Wago's upload processing
