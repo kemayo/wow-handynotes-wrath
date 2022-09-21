@@ -365,3 +365,23 @@ ns.RegisterPoints(120, { -- Time-Lost Proto-Drake
     npc=32491,
     loot={{44168,mount=265}},
 })
+
+-- Higher Learning
+-- Coords from: https://www.wowhead.com/achievement=1956/higher-learning#comments:id=1463964
+-- /script WorldMapFrame:SetMapID(125)
+ns.RegisterPoints(125, { -- Dalaran
+    [56004500] = {criteria=7236, note="On ground by bookshelf",}, -- Introduction
+    [52005500] = {criteria=7237, note="On ground by guild vendor",}, -- Abjuration
+    [30004600] = {criteria=7238, note="Downstairs; bookshelf on the left",}, -- Conjuation
+    [26005100] = {criteria=7239, note="On ground between bookshelves",}, -- Divination
+    [43004700] = {criteria=7240, note="On balcony, by crates",}, -- Enchantment
+    [64005200] = {criteria=7241, note="By crates in the corner",}, -- Illusion
+    [46003900] = {criteria=7242, note="Upstairs; on empty bookshelf",}, -- Necromancy
+    [47003900] = {criteria=7243, note="Downstairs; on empty bookshelf by stove",}, -- Transmutation
+}, {
+    achievement=1956, -- Higher Learning
+    loot={{43824,toy=true}}, -- The Schools of Arcane Magic - Mastery
+    note="Books spawn occasionally, and despawn shortly after someone reads them",
+    texture=ns.atlas_texture("profession", {r=0.5, g=1, b=1}),
+    minimap=true,
+})
