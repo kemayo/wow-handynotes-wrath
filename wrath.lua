@@ -24,6 +24,7 @@ ns.RegisterPoints(114, {
     achievement=2257,
     criteria=8104,
     npc=32358,
+    loot={44666},
 })
 ns.RegisterPoints(114, {
     [80404600] = {},
@@ -111,6 +112,7 @@ ns.RegisterPoints(115, {
     achievement=2257,
     criteria=8111,
     npc=32417,
+    loot={44671},
 })
 
 -- Grizzly Hills
@@ -138,6 +140,7 @@ ns.RegisterPoints(116, {
     achievement=2257,
     criteria=8113,
     npc=32429,
+    loot={44674},
 })
 ns.RegisterPoints(116, {
     [62803700] = {},
@@ -148,6 +151,7 @@ ns.RegisterPoints(116, {
     achievement=2257,
     criteria=8114,
     npc=32438,
+    loot={44676},
 })
 ns.RegisterPoints(116, {
     [31005580] = { -- Arcturis
@@ -224,6 +228,7 @@ ns.RegisterPoints(119, {
     achievement=2257,
     criteria=8118,
     npc=32481,
+    loot={44691},
 })
 ns.RegisterPoints(119, {
     [25804880] = {},
