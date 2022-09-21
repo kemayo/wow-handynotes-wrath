@@ -316,10 +316,10 @@ ns.RegisterPoints(120, {
     loot={44681,44708},
 })
 ns.RegisterPoints(120, {
-    [31056945] = {},
-    [35657665] = {},
-    [51057005] = {},
-    [52053405] = {},
+    [32406780] = {},
+    [35607390] = {},
+    [50407200] = {},
+    [50003310] = {},
 }, { -- Vyragosa
     achievement=2257,
     criteria=8120,
@@ -359,6 +359,8 @@ ns.RegisterPoints(120, { -- Time-Lost Proto-Drake
 }, {
     npc=32491,
     loot={{44168,mount=265}},
+    atlas="VignetteKillElite", scale=1.3,
+    note="Rare-spawn of {npc:32630}",
 })
 
 -- Higher Learning
