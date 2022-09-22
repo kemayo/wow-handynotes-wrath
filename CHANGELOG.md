@@ -1,5 +1,12 @@
 # Changelog
 
+## Changed in v4
+
+* Show an icon on the world map in zones where this is enabled
+* Move Vyragosa out of the way so you can see the Time-Lost spawn points better
+* Completion indicators were missing on loot (they're still not perfect, because this isn't retail)
+* Fix an error when adjusting options
+
 ## Changed in v3
 
 * Added Higher Learning books in Dalaran
