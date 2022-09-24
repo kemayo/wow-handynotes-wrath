@@ -1,5 +1,10 @@
 # Changelog
 
+## Changed in v5
+
+* Paths for rares in Borean Tundra, Dragonblight, and Grizzly Hills
+* Improved dropdowns that're less-likely to cause taint that interferes with quest items
+
 ## Changed in v4
 
 * Show an icon on the world map in zones where this is enabled
