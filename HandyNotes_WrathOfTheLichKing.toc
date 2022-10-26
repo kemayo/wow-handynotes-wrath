@@ -1,4 +1,4 @@
-## Interface: 90207
+## Interface: 100000
 ## Interface-Wrath: 30400
 ## Title: HandyNotes: Wrath of the Lich King
 ## Notes: Where are the interesting things in Northrend?
