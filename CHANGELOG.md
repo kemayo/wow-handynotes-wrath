@@ -1,5 +1,9 @@
 # Changelog
 
+## Changed in v7
+
+* Updated for 10.0.0
+
 ## Changed in v6
 
 * Add in Spirit Healer locations, upon a request...
