@@ -1,5 +1,9 @@
 # Changelog
 
+## Changes in v7.2
+
+* Fix an error with GetPlayerAuraBySpellID, but correctly this time
+
 ## Changes in v7.1
 
 * Fix an error with GetPlayerAuraBySpellID
