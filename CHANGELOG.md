@@ -1,5 +1,13 @@
 # Changelog
 
+## Changes in v8
+
+* Retail fixes for 10.0.2
+
+## Changes in v7.3
+
+* Don't use WorldMapFrame.AddOverlayFrame because it taints
+
 ## Changes in v7.2
 
 * Fix an error with GetPlayerAuraBySpellID, but correctly this time
