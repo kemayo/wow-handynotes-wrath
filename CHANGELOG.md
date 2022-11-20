@@ -1,5 +1,9 @@
 # Changelog
 
+## Changes in v9
+
+* Always show everything on the minimap, since this is a vignette-less expansion
+
 ## Changes in v8
 
 * Retail fixes for 10.0.2
