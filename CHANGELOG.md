@@ -1,5 +1,9 @@
 # Changelog
 
+## Changed in v12
+
+* Update for 1.1.0
+
 ## Changes in v11
 
 * Update for 10.0.7 / 3.4.1
