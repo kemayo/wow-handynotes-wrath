@@ -491,3 +491,115 @@ ns.RegisterPoints(125, { -- Dalaran
 ns.RegisterPoints(123, { -- Wintergrasp
     [50001260] = spirit,
 })
+
+-- Flight masters
+if WOW_PROJECT_ID ~= WOW_PROJECT_MAINLINE then
+    local faction = UnitFactionGroup("player")
+    local FM = ns.nodeMaker{
+        label=MINIMAP_TRACKING_FLIGHTMASTER, -- Flight Master
+        group=TUTORIAL_TITLE35, -- Travel
+        atlas="FlightMaster",
+    }
+    local FLIGHTMASTER = FM{}
+
+    ns.RegisterPoints(125, { -- Dalaran
+        [72004540] = {note="{npc:28674}"}, -- Aludane Whitecloud
+    }, FM{translate={[127]=true}})
+    ns.RegisterPoints(117, { -- Howling Fjord
+        [24605780] = {note="{npc:28197}"}, -- Kip Trawlskip
+    }, FLIGHTMASTER)
+    ns.RegisterPoints(114, { -- Borean Tundra
+        [45203440] = {note="{npc:24795}"}, -- Surristrasz
+        [33003440] = {note="{npc:27046}"}, -- Warmage Adami
+        [78405140] = {note="{npc:28195}"}, -- Bilko Driftspark
+    }, FLIGHTMASTER)
+    ns.RegisterPoints(115, { -- Dragonblight
+        [60205140] = {note="{npc:26851}"}, -- Nethestrasz
+        [48407440] = {note="{npc:28196}"}, -- Cid Flounderfix
+    }, FLIGHTMASTER)
+    ns.RegisterPoints(121, { -- Zul'Drak
+        [70402320] = {note="{npc:30569}"}, -- Rafae
+        [14007340] = {note="{npc:28615}"}, -- Baneflight
+        [32207440] = {note="{npc:28618}"}, -- Danica Saint
+        [60005680] = {note="{npc:28624}"}, -- Maaka
+        [41406440] = {note="{npc:28623}"}, -- Gurric
+    }, FLIGHTMASTER)
+    ns.RegisterPoints(120, { -- The Storm Peaks
+        [40608440] = {note="{npc:29721}"}, -- Skizzle Slickslide
+        [30603640] = {note="{npc:29950}"}, -- Breck Rockbrow
+        [62606080] = {note="{npc:32571}"}, -- Halvdan
+        [44402820] = {note="{npc:29951}"}, -- Shavalius the Fancy
+    }, FLIGHTMASTER)
+    ns.RegisterPoints(119, { -- Sholazar Basin
+        [50006140] = {note="{npc:28574}"}, -- Marvin Wobblesprocket
+        [25205840] = {note="{npc:28037}"}, -- The Spirit of Gnomeregan
+    }, FLIGHTMASTER)
+    ns.RegisterPoints(118, { -- Icecrown
+        [72602260] = {note="{npc:33849}"}, -- Helidan Lightwing
+        [87807800] = {note="{npc:30433}"}, -- Aedan Moran
+        [79407220] = {note="{npc:31069}"}, -- Penumbrius
+        [19404780] = {note="{npc:31078}"}, -- Dreadwind
+        [43602440] = {note="{npc:30314}"}, -- Morlia Doomwing
+    }, FLIGHTMASTER)
+
+    if faction == "Alliance" then
+        ns.RegisterPoints(127, { -- Crystalsong Forest
+            [72008080] = {note="{npc:30271}"}, -- Galendror Whitewing
+        }, FLIGHTMASTER)
+        ns.RegisterPoints(115, { -- Dragonblight
+            [77004980] = {note="{npc:26878}"}, -- Rodney Wells
+            [39402580] = {note="{npc:26877}"}, -- Derek Rammel
+            [29205540] = {note="{npc:26881}"}, -- Palena Silvercloud
+        }, FLIGHTMASTER)
+        ns.RegisterPoints(120, { -- The Storm Peaks
+            [29407420] = {note="{npc:29750}"}, -- Faldorf Bitterchill
+        }, FLIGHTMASTER)
+        ns.RegisterPoints(116, { -- Grizzly Hills
+            [31205900] = {note="{npc:26880}"}, -- Vana Grey
+            [59802660] = {note="{npc:26876}"}, -- Samuel Clearbook
+        }, FLIGHTMASTER)
+        ns.RegisterPoints(117, { -- Howling Fjord
+            [59806320] = {note="{npc:23736}"}, -- Pricilla Winterwind
+            [31204400] = {note="{npc:23859}"}, -- Greer Orehammer
+            [60001600] = {note="{npc:24061}"}, -- James Ormsby
+        }, FLIGHTMASTER)
+        ns.RegisterPoints(114, { -- Borean Tundra
+            [58806820] = {note="{npc:26879}"}, -- Tomas Riverwell
+            [56402000] = {note="{npc:26602}"}, -- Kara Thricestar
+        }, FLIGHTMASTER)
+        ns.RegisterPoints(123, { -- Wintergrasp
+            [72003100] = {note="{npc:30869}"}, -- Arzo Safeflight
+        }, FLIGHTMASTER)
+    elseif faction == "Horde" then
+        ns.RegisterPoints(127, { -- Crystalsong Forest
+            [78405020] = {note="{npc:30269}"}, -- Skymaster Baeric
+        }, FLIGHTMASTER)
+        ns.RegisterPoints(115, { -- Dragonblight
+            [76406220] = {note="{npc:26845}"}, -- Junter Weiss
+            [37404560] = {note="{npc:26566}"}, -- Narzun Skybreaker
+            [43801680] = {note="{npc:26850}"}, -- Numo Spiritbreeze
+        }, FLIGHTMASTER)
+        ns.RegisterPoints(120, { -- The Storm Peaks
+            [65405060] = {note="{npc:29762}"}, -- Hyeyoung Parka
+            [36204920] = {note="{npc:29757}"}, -- Kabarg Windtamer
+        }, FLIGHTMASTER)
+        ns.RegisterPoints(116, { -- Grizzly Hills
+            [22006440] = {note="{npc:26852}"}, -- Kragh
+            [64804680] = {note="{npc:26853}"}, -- Makki Wintergale
+        }, FLIGHTMASTER)
+        ns.RegisterPoints(117, { -- Howling Fjord
+            [79002960] = {note="{npc:27344}"}, -- Adeline Chambers
+            [26002500] = {note="{npc:26844}"}, -- Lilleth Radescu
+            [49401140] = {note="{npc:24032}"}, -- Celea Frozenmane
+            [52006740] = {note="{npc:24155}"}, -- Tobias Sarkhoff
+        }, FLIGHTMASTER)
+        ns.RegisterPoints(114, { -- Borean Tundra
+            [77603780] = {note="{npc:26847}"}, -- Omu Spiritbreeze
+            [40405140] = {note="{npc:25288}"}, -- Turida Coldwind
+            [49601100] = {note="{npc:26848}"}, -- Kimbiza
+        }, FLIGHTMASTER)
+        ns.RegisterPoints(123, { -- Wintergrasp
+            [21403500] = {note="{npc:30870}"}, -- Herzo Safeflight
+        }, FLIGHTMASTER)
+    end
+end
